@@ -1,0 +1,103 @@
+/* .container {
+  max-width: 800px;
+  margin: 0 auto;
+  /* set the margin to be the height of the navbar */
+  /* margin-top: 60px;
+  padding: 20px;
+}
+
+.photos-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+} */ 
+
+/* .photo-Wrap {
+  border: 1px solid #ccc;
+  padding: 10px;
+} */
+
+/* .photo-Wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.load-more-btn {
+  padding: 10px 20px;
+  background-color: #efc186;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.load-more-btn:hover {
+  background-color: #fcaa47;
+} */
+
+
+/* Photos.css */
+
+.photos-container {
+  margin-top: 20px;
+}
+
+.photos-heading {
+  /* font-size: 24px;
+  font-weight: bold; */
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0a417b;
+  
+  margin-left: 20px;
+}
+
+.photos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.photo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.photo-item:hover {
+  background-color: #eaeaea;
+}
+
+.photo-thumbnail {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.photo-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-title {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}

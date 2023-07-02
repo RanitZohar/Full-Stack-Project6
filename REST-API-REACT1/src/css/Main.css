@@ -1,0 +1,38 @@
+.active {
+  color: #fcaa47 !important;
+}
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.NavLink {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.welcome {
+  font-size: 25px;
+  align-self: start;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.NavLink:hover {
+  background-color: #555;
+}
+

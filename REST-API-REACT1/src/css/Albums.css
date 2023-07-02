@@ -1,0 +1,31 @@
+body {
+  background-color: #faf3e1;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  /* set the margin to be the height of the navbar */
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 55px;
+  color: #ff8c00;
+}
+
+.albums {
+  padding: 0;
+}
+
+.album {
+  counter-increment: item;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
